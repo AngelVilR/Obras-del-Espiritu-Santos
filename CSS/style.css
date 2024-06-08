@@ -1,139 +1,143 @@
 /*Estilo que aplica a toda la página y que los bloques esten pegados a los bordes*/
-*{
+* {
     box-sizing: border-box;
     margin: 0px;
     padding: 0px;
 }
+
 /*Color de fondo que se usará para toda las páginas*/
-body{
+body {
     background-color: rgb(244, 242, 231);
 }
+
 /*Color de header que se usará para toda las páginas*/
-header{
-    background-color: rgb(207, 29, 36);    
+header {
+    background-color: rgb(207, 29, 36);
 }
+
 /*Configuración de estilo estándar para la barra de navegación*/
-.BarraDeNavegacion{
-    display: flex;    
+.BarraDeNavegacion {
+    display: flex;
 }
 
-.BarraDeNavegacion ul{
-    list-style-type: none;    
-    padding-top: 40px;    
+.BarraDeNavegacion ul {
+    list-style-type: none;
+    padding-top: 40px;
 }
 
-.BarraDeNavegacion li a{
-    color: white;    
+.BarraDeNavegacion li a {
+    color: white;
     text-shadow: 2px 2px black;
     text-decoration: none;
-    font-size: x-large;    
+    font-size: x-large;
     display: block;
 }
 
-.BarraDeNavegacion li{
+.BarraDeNavegacion li {
     display: inline-block;
     padding: 0px 20px;
 }
 
-.BarraDeNavegacion nav{    
-    padding-left: 16.8%;        
+.BarraDeNavegacion nav {
+    padding-left: 16.8%;
 }
 
-.BarraDeNavegacion a:hover{
+.BarraDeNavegacion a:hover {
     color: rgb(65, 214, 255);
 }
+
 .Footer li a:hover {
     color: rgb(240, 118, 118);
 }
 
 /*Configuración de estilo estándar para el footer*/
-.Footer{
-    background-color: rgb(10,123,153);
-    display: flex; 
-       
+.Footer {
+    background-color: rgb(10, 123, 153);
+    display: flex;
+
 }
 
-.Footer ul{
+.Footer ul {
     list-style: none;
 }
 
-.Footer li a{
-    color: white;    
-    text-shadow: 2px 2px black;   
-    text-decoration: none; 
+.Footer li a {
+    color: white;
+    text-shadow: 2px 2px black;
+    text-decoration: none;
     display: block;
     padding: 0px 0px 10px;
 }
 
-.Footer h3{
-    color: white;    
+.Footer h3 {
+    color: white;
 }
 
-.Footer p{
-    color: white;    
+.Footer p {
+    color: white;
     text-shadow: 2px 2px black;
 }
 
-.Footer nav{
+.Footer nav {
     padding-left: 2%;
     padding-top: 1%;
     padding-bottom: 1%;
-    padding-right: 3%;    
+    padding-right: 3%;
 }
 
 /*pag preguntas frecuentes*/
-.contenido{
+.contenido {
     margin: 5vh 10vh;
     max-width: 60%;
     margin-bottom: 10px;
     padding-bottom: 40px;
 }
 
-.main-h1{
+.main-h1 {
     margin-bottom: 40px;
 }
 
-.main-ul{
+.main-ul {
     margin-left: 5vh;
     margin-top: 1vh;
     font-size: 20px;
 }
 
-main p{
+main p {
     margin-top: 10px;
     margin-bottom: 20px;
     font-size: 20px;
 }
 
 /*acerca de */
-.content-acerca{
+.content-acerca {
     display: flex;
     margin-top: 5vh;
     margin-left: 30vw;
     padding-bottom: 100px;
 }
 
-.img-estudiante{
+.img-estudiante {
     height: 350px;
     width: 350px;
     border-radius: 50%;
 }
 
-.ul-estudiante{
+.ul-estudiante {
     list-style: none;
     margin-left: 50px;
 }
 
 /*iconos redes */
-.icon-redes{
+.icon-redes {
     height: 28px;
     width: 28px;
 }
 
 /* para el formulario*/
 
-.formulario{  
-    background-color: rgb(3, 106, 138); 
+.formulario {
+    background-color: rgb(3, 106, 138);
     height: 420px;
     width: 300px;
     padding-top: 10px;
@@ -142,28 +146,28 @@ main p{
     right: 0px;
 }
 
-.campos{
+.campos {
     margin-left: 30px;
 }
 
-.forms{
+.forms {
     margin-bottom: 15px;
     width: 220px;
-    
+
 }
 
-.seleccion{
+.seleccion {
     margin-bottom: 15px;
     width: 220px;
 }
 
-.mensaje{
+.mensaje {
     margin-bottom: 15px;
     height: 100px;
     width: 220px;
 }
 
-.form-head{
+.form-head {
     margin-left: 30px;
     position: relative;
     top: 0px;
@@ -172,19 +176,19 @@ main p{
 
 
 /*final del pie */
-#derechos{
+#derechos {
     color: #f4f2e7;
     position: relative;
     bottom: 0px;
-    background-color: rgb(10,123,153);;
+    background-color: rgb(10, 123, 153);
+    ;
     text-align: center;
     padding-top: 20px;
 }
 
-#derechos a{
+#derechos a {
     text-decoration: none;
     color: #f4f2e7;
     position: relative;
     bottom: 0px;
 }
-
