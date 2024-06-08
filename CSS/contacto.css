@@ -1,0 +1,87 @@
+.pancarta{
+    position: relative;
+    background-color: blue;
+    width: 100%;
+    height: 20em;
+    text-align: center;
+    color: white;
+/*     background-image: url(https://amprensa.com/wp-content/uploads/2020/04/obras-del-espiritud-santo-696x364.jpg?v=1586361196);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; */
+    
+}
+
+.maine{
+    background-color: chartreuse;
+    display: flex;
+}
+
+.pancarta h1{
+    position: relative;
+    top: 40%;
+}
+
+.aside-form{
+    background-color: blueviolet;
+    width: 40%;
+    height: 60em;
+    padding: 2.5em;
+
+}
+
+.forms{
+    width: 100%;
+    background-color: coral;
+}
+
+.forms input{
+    margin-bottom: 15px;
+    width: 90%;
+    height: 2em;
+}
+
+.forms select{
+    width: 90%;
+    height: 2em;
+    margin-bottom: 15px;
+}
+
+.forms textarea{
+    width: 90%;
+    height: 10em;
+    margin-bottom: 15px;
+}
+
+#submit{
+    background-color: red;
+    width: 6em;
+    height: 2em;
+}
+
+#reset{
+    background-color: red;
+    width: 6em;
+    height: 2em;
+}
+
+.aside-contacto{
+    background-color: chocolate;
+    position: relative;
+    width: 60%;
+    height: 60em;
+    padding: 2.5em;
+    padding-left: 5em;
+    right: 0px;
+    top: 45%;
+  }
+
+  .imge{
+    width: 100%;
+    position: relative;
+    height: 20em;
+  }
+
+  .cro{
+    
+  }
