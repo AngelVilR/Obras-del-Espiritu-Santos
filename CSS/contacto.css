@@ -1,3 +1,4 @@
+/* Estilo para el titulo del articulo*/
 .pancarta{
     position: relative;
     background-color: blue;
@@ -5,68 +6,68 @@
     height: 20em;
     text-align: center;
     color: white;
-/*     background-image: url(https://amprensa.com/wp-content/uploads/2020/04/obras-del-espiritud-santo-696x364.jpg?v=1586361196);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover; */
     
 }
-
+/* clase para el main de la pag*/
 .maine{
-    background-color: chartreuse;
+    /* background-color: chartreuse; */
     display: flex;
 }
-
+/*establece la posicion del titulo de la pancarta*/
 .pancarta h1{
-    position: relative;
+    position: absolute;
+    left: 44%;
     top: 40%;
+    z-index: 10;
 }
-
+/*Formato del aside donde esta ubicado el formulario, el titulo y una descripcion */
 .aside-form{
-    background-color: blueviolet;
+    /* background-color: blueviolet; */
     width: 40%;
     height: 60em;
     padding: 2.5em;
-
+    background-color: #0d4567;
+    margin-left: 0em;
+    color:  rgb(244, 242, 231);;
 }
-
+/*Estilo del formulario*/
 .forms{
     width: 100%;
-    background-color: coral;
+    /* background-color: coral; */
 }
-
+/*Estilo de los campos del formulario*/
 .forms input{
     margin-bottom: 15px;
     width: 90%;
     height: 2em;
 }
-
+/*estilo para el combo box dentro del formulario*/
 .forms select{
     width: 90%;
     height: 2em;
     margin-bottom: 15px;
 }
-
+/*Estilo para el texarea dentro del formulario*/
 .forms textarea{
     width: 90%;
     height: 10em;
     margin-bottom: 15px;
 }
-
+/*Estilo del boton submit en el formulario*/
 #submit{
-    background-color: red;
+    /* background-color: red; */
     width: 6em;
     height: 2em;
 }
-
+/*Estilo del boton reset en el formulario*/
 #reset{
-    background-color: red;
+    /* background-color: red; */
     width: 6em;
     height: 2em;
 }
-
+/*Estilo del aside donde esta la info de ubicacion y contacto*/
 .aside-contacto{
-    background-color: chocolate;
+   /*  background-color: chocolate; */
     position: relative;
     width: 60%;
     height: 60em;
@@ -75,13 +76,31 @@
     right: 0px;
     top: 45%;
   }
-
+/*Estilo de la imagen de la pancarta*/
   .imge{
     width: 100%;
     position: relative;
     height: 20em;
+    /* filter: blur(2px); */
   }
 
+  /*Estilo del div que contiene el h1 en la pancarta. absolute delante de la imagen de pancarta*/
   .cro{
-    
+    position: absolute;
+    top: 0px;
+/*     left: 10%;
+    padding-bottom: 17em; */
+    text-align: center;
+    background-color: rgb(207, 29, 36,0.7); /* rgb(44, 41, 41,0.5); */
+    height: 100%;
+    width: 100%;
   }
+
+  /*Estilo del iframe que contiene el mapa de google maps*/
+  .maps{
+    width: 600px; 
+    height: 450px; 
+    border:0;
+    margin-bottom: 15px;
+  }
+  
