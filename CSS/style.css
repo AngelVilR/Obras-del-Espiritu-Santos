@@ -26,8 +26,7 @@ header{
     color: white;    
     text-shadow: 2px 2px black;
     text-decoration: none;
-    font-size: x-large;    
-    display: block;
+    font-size: x-large;   
 }
 
 .BarraDeNavegacion li{
@@ -36,21 +35,20 @@ header{
 }
 
 .BarraDeNavegacion nav{    
-    padding-left: 16.8%;        
+    padding-left: 10%;
 }
 
 .BarraDeNavegacion a:hover{
-    color: rgb(65, 214, 255);
+    color: rgb(0, 162, 255);
 }
 .Footer li a:hover {
-    color: rgb(240, 118, 118);
+    color: rgb(235, 100, 100);
 }
 
 /*Configuración de estilo estándar para el footer*/
 .Footer{
     background-color: rgb(10,123,153);
-    display: flex; 
-       
+    display: flex;       
 }
 
 .Footer ul{
@@ -81,97 +79,13 @@ header{
     padding-right: 3%;    
 }
 
-/*pag preguntas frecuentes*/
-.contenido{
-    margin: 5vh 10vh;
-    max-width: 60%;
-    margin-bottom: 10px;
-    padding-bottom: 40px;
-}
-
-.main-h1{
-    margin-bottom: 40px;
-}
-
-.main-ul{
-    margin-left: 5vh;
-    margin-top: 1vh;
-    font-size: 20px;
-}
-
-main p{
-    margin-top: 10px;
-    margin-bottom: 20px;
-    font-size: 20px;
-}
-
-/*acerca de */
-.content-acerca{
-    display: flex;
-    margin-top: 5vh;
-    margin-left: 30vw;
-    padding-bottom: 100px;
-}
-
-.img-estudiante{
-    height: 350px;
-    width: 350px;
-    border-radius: 50%;
-}
-
-.ul-estudiante{
-    list-style: none;
-    margin-left: 50px;
-}
-
-/*iconos redes */
+/*Estilo de los iconos para las redes sociales*/
 .icon-redes{
     height: 28px;
     width: 28px;
 }
 
-/* para el formulario*/
-
-.formulario{  
-    background-color: rgb(3, 106, 138); 
-    height: 420px;
-    width: 300px;
-    padding-top: 10px;
-    color: white;
-    position: relative;
-    right: 0px;
-}
-
-.campos{
-    margin-left: 30px;
-}
-
-.forms{
-    margin-bottom: 15px;
-    width: 220px;
-    
-}
-
-.seleccion{
-    margin-bottom: 15px;
-    width: 220px;
-}
-
-.mensaje{
-    margin-bottom: 15px;
-    height: 100px;
-    width: 220px;
-}
-
-.form-head{
-    margin-left: 30px;
-    position: relative;
-    top: 0px;
-    margin-bottom: 20px;
-}
-
-
-/*final del pie */
+/*Estilo para los derechos de autor*/
 #derechos{
     color: #f4f2e7;
     position: relative;

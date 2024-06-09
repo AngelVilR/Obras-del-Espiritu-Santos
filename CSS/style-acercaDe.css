@@ -1,0 +1,18 @@
+/*acerca de */
+.content-acerca{
+    display: flex;
+    margin-top: 5vh;
+    margin-left: 30vw;
+    padding-bottom: 100px;
+}
+
+.img-estudiante{
+    height: 350px;
+    width: 350px;
+    border-radius: 50%;
+}
+
+.ul-estudiante{
+    list-style: none;
+    margin-left: 50px;
+}
