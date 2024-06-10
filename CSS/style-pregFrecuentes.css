@@ -1,0 +1,22 @@
+.contenido{
+    margin: 5vh 10vh;
+    max-width: 60%;
+    margin-bottom: 10px;
+    padding-bottom: 40px;
+}
+
+.main-h1{
+    margin-bottom: 40px;
+}
+
+.main-ul{
+    margin-left: 5vh;
+    margin-top: 1vh;
+    font-size: 20px;
+}
+
+main p{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
