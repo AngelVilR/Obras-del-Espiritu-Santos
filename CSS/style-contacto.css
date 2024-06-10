@@ -6,11 +6,10 @@
     height: 20em;
     text-align: center;
     color: white;
-
 }
 
 /* clase para el main de la pag*/
-.maine {
+.main {
     /* background-color: chartreuse; */
     display: flex;
 }
@@ -18,13 +17,14 @@
 /*establece la posicion del titulo de la pancarta*/
 .pancarta h1 {
     position: absolute;
-    left: 44%;
-    top: 40%;
+    left: 41.5%;
+    top: 38%;
     z-index: 10;
+    font-size: 3em;
 }
 
-/*Formato del aside donde esta ubicado el formulario, el titulo y una descripcion */
-.aside-form {
+/*Formato del nav donde esta ubicado el formulario, el titulo y una descripcion */
+.nav-form {
     /* background-color: blueviolet; */
     width: 40%;
     height: 60em;
@@ -76,8 +76,8 @@
     height: 2em;
 }
 
-/*Estilo del aside donde esta la info de ubicacion y contacto*/
-.aside-contacto {
+/*Estilo del nav donde esta la info de ubicacion y contacto*/
+.nav-contacto {
     /*  background-color: chocolate; */
     position: relative;
     width: 60%;
@@ -93,7 +93,6 @@
     width: 100%;
     position: relative;
     height: 20em;
-    /* filter: blur(2px); */
 }
 
 /*Estilo del div que contiene el h1 en la pancarta. absolute delante de la imagen de pancarta*/
