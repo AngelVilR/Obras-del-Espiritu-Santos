@@ -1,0 +1,17 @@
+/*Estilo para separar el contenido del header, footer con el main*/
+.Estilo-Main {
+    
+}
+
+/*Estilo para darle formato a la información*/
+#QuienesSomos {
+    /* background-color: blue; */
+}
+
+#Mision {
+    /*background-color: blueviolet;*/
+}
+
+#Vision {
+    /* background-color: crimson; */
+}
