@@ -1,17 +1,40 @@
-/*Estilo para separar el contenido del header, footer con el main*/
-.Estilo-Main {
+/*Estilo estándar que se le aplicará a los h's y p's*/
+main h2{
+    text-align: center;
+    font-size: xx-large;
+}
+
+main p{
+    text-align: justify;
+    font-size: 22px;
+}
+
+/*Estilo que se ke aolica al articulo quiens somo*/
+.Estilo-QuienesSomos{
     display: flex;
+    justify-content: center;
+    gap: 1em;
+    padding-top: 2%;
+    padding-bottom: 3%;
 }
 
-/*Estilo para darle formato a la información*/
-#QuienesSomos {
-    background-color: blue;
-}
-
-#Mision {
+.Estilo-QuienesSomos article{
+    width: 58.4%;
     background-color: blueviolet;
 }
 
-#Vision {
-    background-color: crimson;
+
+/*Estilo que se le aplica a los articulos Mision y Vision*/
+.Estilo-MisionYVision{
+    display: grid;    
+    grid-template-columns: repeat(2,1fr);
+    padding-left: 4%;
+    text-align: center;    
+    padding-bottom: 3%;
+}
+
+.Estilo-MisionYVision article{
+    width: 92%;
+    height: auto;
+    background-color: aqua;
 }
