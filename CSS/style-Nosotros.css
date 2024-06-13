@@ -1,40 +1,82 @@
-/*Estilo estándar que se le aplicará a los h's y p's*/
-main h2{
-    text-align: center;
-    font-size: xx-large;
+/*Estilo default para el tamaño de los textos*/
+main {
+    padding: 1% 0% 2% 0%;    
 }
 
-main p{
+main h2 {
+    text-align: center;
+    font-size: xx-large;
+    padding-top: 35px;
+}
+
+main p {
     text-align: justify;
     font-size: 22px;
+    padding-top: 35px;
 }
 
 /*Estilo que se ke aolica al articulo quiens somo*/
-.Estilo-QuienesSomos{
+.Estilo-QuienesSomos {
     display: flex;
-    justify-content: center;
     gap: 1em;
-    padding-top: 2%;
-    padding-bottom: 3%;
+    justify-content: center;    
+    padding-top: 1%;
+    padding-bottom: 1%;
 }
 
-.Estilo-QuienesSomos article{
+.Estilo-QuienesSomos article {
     width: 58.4%;
-    background-color: blueviolet;
 }
-
 
 /*Estilo que se le aplica a los articulos Mision y Vision*/
-.Estilo-MisionYVision{
-    display: grid;    
-    grid-template-columns: repeat(2,1fr);
+.Estilo-MisionYVision {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
     padding-left: 4%;
-    text-align: center;    
-    padding-bottom: 3%;
+    text-align: center;
+    padding-bottom: 1%;
 }
 
-.Estilo-MisionYVision article{
+.Estilo-MisionYVision article {
     width: 92%;
     height: auto;
-    background-color: aqua;
+}
+
+.Estilo-MisionYVision img {
+    padding-top: 30px;
+}
+
+/*Estilo que se le aplica a la articulo de Valores*/
+.Estilo-Valores {
+    width: 92%;
+    margin: auto;
+    text-align: center;
+}
+
+/*Estilo que se le aplica a la tabla de valores*/
+table {
+    background-color: rgb(143, 215, 243);
+    text-align: left;
+    margin: auto;
+    width: 98%;
+}
+
+td {
+    padding: 1%;
+    word-wrap: break-word;    
+    font-family: "Gelasio", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+table tbody tr:nth-child(even) {
+    background-color: rgb(87, 187, 226);
+}
+
+table,
+td,
+th {
+    border: 2px solid black;
+    border-collapse: collapse;
 }
