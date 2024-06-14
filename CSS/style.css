@@ -117,3 +117,52 @@ header{
     bottom: 0px;
 }
 
+/* marcado de pagina*/
+ #index{
+    color: rgb(0, 162, 255);
+    text-decoration: overline;
+    text-decoration-thickness: 3px;
+}
+
+#Nosotros{
+    color: rgb(0, 162, 255);
+    text-decoration: overline;
+    text-decoration-thickness: 3px;
+}
+
+#Servicios{
+    color: rgb(0, 162, 255);
+    text-decoration: overline;
+    text-decoration-thickness: 3px;
+}
+
+#MenuBlog{
+    color: rgb(0, 162, 255);
+    text-decoration: overline;
+    text-decoration-thickness: 3px;
+}
+
+#Contact{
+    color: rgb(0, 162, 255);
+    text-decoration: overline;
+    text-decoration-thickness: 3px;
+}
+
+#Preguntas-frecuentes{
+    color: rgb(0, 162, 255);
+    text-decoration: overline;
+    text-decoration-thickness: 3px;
+}
+
+#Acerca-de{
+    color: rgb(0, 162, 255);
+    text-decoration: overline;
+    text-decoration-thickness: 3px;
+}
+
+/*efecto iconos */
+.icon-redes:hover{
+    height: 34px;
+    width: 34px;
+    transition: all 300ms ease;
+}
