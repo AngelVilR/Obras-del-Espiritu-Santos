@@ -10,7 +10,6 @@
 
 /* clase para el main de la pag*/
 .main {
-    /* background-color: chartreuse; */
     display: flex;
 }
 
@@ -25,7 +24,6 @@
 
 /*Formato del nav donde esta ubicado el formulario, el titulo y una descripcion */
 .nav-form {
-    /* background-color: blueviolet; */
     width: 40%;
     height: 60em;
     padding: 2.5em;
@@ -65,14 +63,12 @@
 
 /*Estilo del boton submit en el formulario*/
 #submit {
-    /* background-color: red; */
     width: 6em;
     height: 2em;
 }
 
 /*Estilo del boton reset en el formulario*/
 #reset {
-    /* background-color: red; */
     width: 6em;
     height: 2em;
 }
@@ -100,18 +96,14 @@
 .cro {
     position: absolute;
     top: 0px;
-    /*     left: 10%;
-    padding-bottom: 17em; */
     text-align: center;
     background-color: rgb(207, 29, 36, 0.7);
-    /* rgb(44, 41, 41,0.5); */
     height: 100%;
     width: 100%;
 }
 
 /*Estilo del iframe que contiene el mapa de google maps*/
 .maps {
-    /* width: 600px; */
     width: 800px;
     height: 450px;
     border: 0;
@@ -131,12 +123,12 @@
 .nav-contacto h2{
     margin-top: 10px;
     margin-bottom: 10px;
-    /* color: rgb(10,123,153); */
+    color: rgb(10,123,153);
 }
 
-/* .nav-contacto b{
+.nav-contacto b{
     color: rgb(10,123,153);
-} */
+}
 
 #submit ::before{
     content: Enviar;
