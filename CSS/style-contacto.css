@@ -32,6 +32,7 @@
     background-color: #0d4567;
     margin-left: 0em;
     color: rgb(244, 242, 231);
+    
     ;
 }
 
@@ -110,8 +111,33 @@
 
 /*Estilo del iframe que contiene el mapa de google maps*/
 .maps {
-    width: 600px;
+    /* width: 600px; */
+    width: 800px;
     height: 450px;
     border: 0;
     margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+.nav-form p{
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.nav-form div{
+    margin-left: 30px;
+}
+
+.nav-contacto h2{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    /* color: rgb(10,123,153); */
+}
+
+/* .nav-contacto b{
+    color: rgb(10,123,153);
+} */
+
+#submit ::before{
+    content: Enviar;
 }

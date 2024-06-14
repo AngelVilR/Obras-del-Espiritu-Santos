@@ -1,9 +1,13 @@
 /*acerca de */
 .content-acerca{
     display: flex;
-    margin-top: 5vh;
-    margin-left: 27vw;
+    /* margin-top: 5vh; */
+    /* margin-left: 27vw; */
+    padding-left: 2.5vw;
+    padding-top: 5vh;   
     padding-bottom: 100px;
+    justify-content: space-evenly;
+    
 }
 
 .img-estudiante{
@@ -15,4 +19,19 @@
 .ul-estudiante{
     list-style: none;
     margin-left: 50px;
+    margin-top: 5%;
+    font-size: 1.5em;
+}
+
+.acerca{
+    text-align: center;
+    padding: 2.5%;
+    color: rgb(10,123,153);
+    /* color: rgb(207, 29, 36); */  
+    font-size: 1.5em;
+}
+
+.content-acerca b{
+    /* color: rgb(207, 29, 36); */  
+    color:  rgb(10,123,153);
 }
