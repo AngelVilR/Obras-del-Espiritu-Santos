@@ -11,46 +11,36 @@ main h2 {
 
 main p {
     text-align: justify;
-    font-size: 22px;
-    padding-top: 35px;
+    font-size: 21px;
+    padding: 3% 3% 0%;
+}
+
+.Estilo-nav{    
+    background-color: rgb(224, 223, 212);
+    border: 10px solid black;
+    border-style: double;
+    width: 72em;
+    margin: auto;    
 }
 
 /*Estilo que se ke aolica al articulo quiens somo*/
 .Estilo-QuienesSomos {
-    display: flex;
-    gap: 1em;
-    justify-content: center;    
-    padding-top: 1%;
-    padding-bottom: 1%;
-}
-
-.Estilo-QuienesSomos article {
-    width: 58.4%;
+    display: flex;        
+    gap: 1rem;
 }
 
 /*Estilo que se le aplica a los articulos Mision y Vision*/
-.Estilo-MisionYVision {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    padding-left: 4%;
-    text-align: center;
-    padding-bottom: 1%;
-}
-
-.Estilo-MisionYVision article {
-    width: 92%;
-    height: auto;
-}
-
-.Estilo-MisionYVision img {
-    padding-top: 30px;
-}
+/* .Estilo-MisionYVision {
+} */
 
 /*Estilo que se le aplica a la articulo de Valores*/
 .Estilo-Valores {
-    width: 92%;
+    background-color: rgb(218, 14, 21);
+    border: 10px solid black;
+    border-style: double;
+    width: 72rem;
     margin: auto;
-    text-align: center;
+    text-align: center;    
 }
 
 /*Estilo que se le aplica a la tabla de valores*/
@@ -58,7 +48,7 @@ table {
     background-color: rgb(143, 215, 243);
     text-align: left;
     margin: auto;
-    width: 98%;
+    width: 60rem;
 }
 
 td {
