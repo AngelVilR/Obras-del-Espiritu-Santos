@@ -6,7 +6,7 @@
 }
 
 /*Estilo estándar que se le aplicará a los h's y p's*/
-h1, h2 {
+h1, h2, h3 {
     font-family: "Poetsen One", sans-serif;
     font-weight: 400;
     font-style: normal;    
