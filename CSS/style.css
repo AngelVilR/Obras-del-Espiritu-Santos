@@ -100,6 +100,10 @@ header{
     width: 28px;
 }
 
+.icon-redes:hover{
+    transform: scale(1.2);
+}
+
 /*Estilo para los derechos de autor*/
 #derechos{
     color: #f4f2e7;
@@ -117,3 +121,25 @@ header{
     bottom: 0px;
 }
 
+
+#index{
+    color:rgb(0, 162, 255);
+}
+#contacto{
+    color: rgb(0, 162, 255);;
+}
+#blog{
+    color: rgb(0, 162, 255);
+}
+#acercad{
+    color: rgb(0, 162, 255);
+}
+#nosotros{
+    color: rgb(0, 162, 255);
+}
+#preguntas{
+    color: rgb(0, 162, 255);
+}
+#servicios{
+    color: rgb(0, 162, 255);
+}
