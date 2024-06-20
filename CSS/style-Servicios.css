@@ -32,16 +32,15 @@ main p{
 .Estilo-Servicios{    
     display: grid;
     grid-template-columns: repeat(2,1fr);
-    gap: 2rem;
+    gap: 2rem;        
 }
 
 .Estilo-Servicios nav{
     background-color: rgb(231, 230, 220);
-    /* border: 2px solid black;        */
-    /* width: 40em;  */
-    width: 80%;
+    /* border: 2px solid black;        */    
+    width: 80%;    
     margin: auto;
-    transition: all 0.3s;
+    transition: all 0.3s;    
 }
 
 .Estilo-Servicios img{
