@@ -1,7 +1,8 @@
 .SeparadorNoticias {
     padding: 2em 2em;
     font-size: larger;
-    background-color: aqua;
+    background-color: rgb(156, 6, 6);
+    color: white;
 }
 
 .Contenedor-Noticias {
