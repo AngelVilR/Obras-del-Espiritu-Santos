@@ -15,6 +15,7 @@ main {
 .contenedor-listaCont h2 {
  text-align: center;
  margin-top: 45px; 
+ color: rgb(14, 119, 138);
 }
 
 #ListaCont li {
@@ -52,6 +53,7 @@ main {
 
 .contenedor-NoticiasDestacadas h2{    
     padding-bottom: 1em;    
+    color: rgb(14, 119, 138);
 }
 
 .contenedor-NoticiasDestacadas h3{

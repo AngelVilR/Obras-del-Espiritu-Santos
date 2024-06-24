@@ -16,6 +16,7 @@ main h3{
     text-align: center;
     font-size: x-large;
     color: rgb(10,123,153);
+    padding-bottom: 6px;
 }
 
 main p{
