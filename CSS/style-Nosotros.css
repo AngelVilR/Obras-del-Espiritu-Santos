@@ -1,0 +1,70 @@
+/*Estilo default para el tamaño de los textos*/
+main {
+    padding: 1% 0% 2% 0%;
+}
+
+main h2 {
+    text-align: center;
+    font-size: xx-large;
+    padding-top: 35px;
+    color: rgb(10,123,153);
+}
+
+main p {
+    text-align: justify;
+    font-size: 21px;
+    padding: 3% 3% 0%;
+}
+
+.Estilo-nav {
+    background-color: rgb(224, 223, 212);
+    border: 10px solid black;
+    border-style: double;
+    width: 75em;
+    margin: auto;
+}
+
+/*Estilo que se ke aolica al articulo quiens somo*/
+.Estilo-QuienesSomos {
+    display: flex;
+    gap: 1rem;
+}
+
+/*Estilo que se le aplica a los articulos Mision y Vision*/
+.Estilo-MisionYVision {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+    padding-bottom: 3%;
+}
+
+/*Estilo que se le aplica a la articulo de Valores*/
+.Estilo-Valores {
+    background-color: rgb(207, 13, 19);
+    border: 10px solid black;
+    border-style: double;
+    width: 75rem;
+    margin: auto;
+    text-align: center;    
+}
+
+.Estilo-Valores h2, h3{
+    color: white;
+}
+
+.Estilo-Container-Valores {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);    
+    gap: 25px;
+}
+
+.Estilo-Container-Valores p{    
+    text-align: center;
+    color: white;
+}
+
+/*Estilo que se le aplica a los iconos de los valores*/
+.Estilo-Icons-Valores img{
+    width: 110px;
+    border-radius: 20%;
+}

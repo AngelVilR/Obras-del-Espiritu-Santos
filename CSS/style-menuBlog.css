@@ -1,0 +1,42 @@
+.SeparadorNoticias {
+    padding: 2em 2em;
+    font-size: larger;
+    background-color: rgb(156, 6, 6);
+    color: white;
+}
+
+.Contenedor-Noticias {
+    display: flex;
+    padding: 2em 1em 4em;
+    gap: 1rem;
+}
+
+.Estilo-Noticias-Card {
+    width: 30%;
+    margin: auto;
+    border: 12px solid rgb(156, 156, 156);
+    border-style: ridge;
+    transition: all 1s;
+    background-color: rgb(231, 230, 215);
+}
+
+.Estilo-Noticias-Card img {
+    width: 100%;
+}
+
+.Estilo-Noticias-Card h3 {
+    text-align: center;
+}
+
+.Estilo-Noticias-Card p {
+    text-align: justify;
+}
+
+.Estilo-Noticias-Card a {
+    text-decoration: none;
+    color: black;
+}
+
+.Estilo-Noticias-Card:hover {
+    transform: scale(1.1);
+}
