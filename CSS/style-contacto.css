@@ -30,14 +30,11 @@
     background-color: #0d4567;
     margin-left: 0em;
     color: rgb(244, 242, 231);
-    
-    ;
 }
 
 /*Estilo del formulario*/
 .forms {
-    width: 100%;
-    /* background-color: coral; */
+    width: 100%;    
 }
 
 /*Estilo de los campos del formulario*/
@@ -74,8 +71,7 @@
 }
 
 /*Estilo del nav donde esta la info de ubicacion y contacto*/
-.nav-contacto {
-    /*  background-color: chocolate; */
+.nav-contacto {    
     position: relative;
     width: 60%;
     height: 60em;
@@ -104,11 +100,10 @@
 
 /*Estilo del iframe que contiene el mapa de google maps*/
 .maps {
-    width: 800px;
+    width: 90%;
     height: 450px;
     border: 0;
-    margin-bottom: 15px;
-    margin-top: 15px;
+    margin: 1em auto;
 }
 
 .nav-form p{
